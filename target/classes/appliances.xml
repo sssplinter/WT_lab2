@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="16.0.1" class="java.beans.XMLDecoder">
+ <object class="by.tc.task01.entity.Kettle">
+  <void property="color">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>by.tc.task01.entity.characteristics.Color</class>
+    <string>Red</string>
+   </object>
+  </void>
+  <void property="name">
+   <string>Scarlett SC-EK27G73</string>
+  </void>
+  <void property="powerConsumption">
+   <int>123</int>
+  </void>
+  <void property="price">
+   <double>340.0</double>
+  </void>
+  <void property="waterCapacity">
+   <double>1000.0</double>
+  </void>
+ </object>
+ <object class="by.tc.task01.entity.Kettle">
+  <void property="color">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>by.tc.task01.entity.characteristics.Color</class>
+    <string>Black</string>
+   </object>
+  </void>
+  <void property="name">
+   <string>Redmond SkyKettle RK-M216S</string>
+  </void>
+  <void property="powerConsumption">
+   <int>2000</int>
+  </void>
+  <void property="price">
+   <double>210.0</double>
+  </void>
+  <void property="waterCapacity">
+   <double>1700.0</double>
+  </void>
+ </object>
+ <object class="by.tc.task01.entity.Oven">
+  <void property="capacity">
+   <int>100</int>
+  </void>
+  <void property="depth">
+   <int>17</int>
+  </void>
+  <void property="height">
+   <double>60.0</double>
+  </void>
+  <void property="name">
+   <string>Samsung NV68R1310BS</string>
+  </void>
+  <void property="powerConsumption">
+   <int>1000</int>
+  </void>
+  <void property="price">
+   <double>174.0</double>
+  </void>
+  <void property="weight">
+   <int>50</int>
+  </void>
+  <void property="width">
+   <double>70.0</double>
+  </void>
+ </object>
+</java>
